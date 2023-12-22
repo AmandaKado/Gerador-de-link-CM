@@ -21,9 +21,8 @@ main {
     border-radius: 50px;
     padding: 30px;
     margin: 30px;
-    min-width: 500px;
-    min-height: 70vh;
-    max-width: 80vw;
+    min-width: 800px;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,28 +40,35 @@ input {
     color: rgb(88, 67, 0);
     border-radius: 50px;
     border: 0px;
-    width: 400px;
-    padding: 20px 40px;
+    width: 700px;
+    padding: 30px 40px;
 }
 
 input::placeholder {
     color: rgb(44, 33, 0);
+    font-size: 1.3em;
 }
 
 button {
     border-radius: 50px;
     border: 0px;
-    width: 400px;
-    padding: 15px;
+    width: 700px;
+    padding: 30px;
+    margin: 40px 0 0 0;
     background-color: rgb(52, 39, 11);
     color: rgb(231, 196, 114);
+    text-transform: uppercase;
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 h1 {
     color: rgb(52, 39, 11);
+    font-size: 2.3em;
     padding: 0px 0px 20px 0px;
+    margin: 50px 0;
     text-transform: uppercase;
+    
 }
 
 @media (max-device-width: 500px) {

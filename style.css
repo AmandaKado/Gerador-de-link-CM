@@ -37,7 +37,8 @@ section {
 
 input {
     background-color: rgba(135, 81, 1, 0.267);
-    color: rgb(88, 67, 0);
+    color: rgb(44, 33, 0);
+    font-size: 1.3em;
     border-radius: 50px;
     border: 0px;
     width: 700px;
